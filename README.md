@@ -1,11 +1,11 @@
 # Speedcoding Micro Projects
 
-Project id: mini-prj-20231016-todo-dkp
-Chapter id: 00
-Chapter name: Base initial state
-Source: YTB: DK Programming : https://www.youtube.com/watch?v=ZoZ8z7J_SyE
-3rd Party: 
- (1) Bootstrap
+- Project id: mini-prj-20231016-todo-dkp
+- Chapter id: 00
+- Chapter name: Base initial state
+- Source: YTB: DK Programming : https://www.youtube.com/watch?v=ZoZ8z7J_SyE
+- 3rd Party: 
+- - (1) Bootstrap
 
 ## About Micro Projects
 
