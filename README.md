@@ -1,27 +1,51 @@
-# Mp20231016TodoDkp
+# Speedcoding Micro Projects
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.4.
+Project id: mini-prj-20231016-todo-dkp
+Chapter id: 00
+Chapter name: Base initial state
+Source: YTB: DK Programming : https://www.youtube.com/watch?v=ZoZ8z7J_SyE
+3rd Party: 
+ (1) Bootstrap
 
-## Development server
+## About Micro Projects
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Welcome to Speedcoding Micro Projects
+Micro projects are between 5 to 10 hours depending on your skill.
+They focus on 2 or more Angular skills
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Skill goals :
 
-## Build
+- 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## App display:
 
-## Running unit tests
+  ## Screenshot of initial page before user interaction :
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+-
+## Interaction with app:
 
-## Running end-to-end tests
+-
+## Screenshot after interaction :
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Your task :
 
-## Further help
+- (1) 
+- (2) 
+- (3) 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Included in the starter branch :
+
+## Data for the PhotoData class :
+
+### Refrences :
+
+(1) Project starter:
+
+- GitHub link: https://github.com/SpeedCodeNpo/mini-prj-20231004-todo-cdl
+- Stackblitz link:
+
+(2) Project solution:
+
+- GitHub link: 
+- Stackblitz link:
