@@ -6,6 +6,7 @@
     <div class="form-group">
       <label for="taskFieldId">Task</label>
       <input
+        required
         type="text"
         class="form-control"
         id="taskFieldId"
@@ -13,12 +14,14 @@
         ngModel
         name="taskControl"
       />
-      <small id="erroMessage" class="form-text text-danger">
+      <small 
+          *ngIf="taskForm.invalid && taskForm.dirty"
+          id="erroMessage" class="form-text text-danger">
         Required field
       </small>
     </div>
 
-    <button id="submitButton" type="submit" class="btn btn-primary">Submit</button>
+    <button id="submitButton" type="submit" class="btn btn-primary" [disabled]="taskForm.invalid">Submit</button>
   </form>
 
   <hr>

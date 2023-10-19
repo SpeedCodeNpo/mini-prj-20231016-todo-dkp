@@ -33,20 +33,33 @@
 ## Content of each chapter (branch) :
 
 - Chp 00 : 
+    Video url: https://youtu.be/ZoZ8z7J_SyE?t=
+
 - Chp 01 : 
+    Video url: https://youtu.be/ZoZ8z7J_SyE?t=
+
 - Chp 02 : 
+    Video url: https://youtu.be/ZoZ8z7J_SyE?t=
+
 - Chp 03 : Wire up a TDF :
+    Video url: https://youtu.be/ZoZ8z7J_SyE?t=
     (1) in app.module importthe FormsModule.
     (2) in comp. html file modify the  for submit event.
     (3) in comp. html file wireup controls to ngModel directive.
     (4) in comp. ts file create the submit method
     (5) in comp. html file add validations. https://angular.io/api/forms/Validators
 - Chp 04 : Add the data model :
+    Video url: https://youtu.be/ZoZ8z7J_SyE?t=
     (1) in comp. ts create an array to hold the task data.
     (2) in comp. html modify table rows with *ngFor of the data array.
 - Chp 05 : Add and delete a task :
+    Video url: https://youtu.be/ZoZ8z7J_SyE?t=
     (1) in comp ts file grab the value from the input element and push to array.
     (2) in comp ts remove an item from the array
+- Chp 06 : Add validation :
+    Video url: https://youtu.be/ZoZ8z7J_SyE?t=1654
+    (1) Disable submit when no input
+
 
 
 ## Included in the starter branch :
