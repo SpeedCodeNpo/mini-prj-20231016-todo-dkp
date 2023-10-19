@@ -59,6 +59,10 @@
 - Chp 06 : Add validation :
     Video url: https://youtu.be/ZoZ8z7J_SyE?t=1654
     (1) Disable submit when no input
+- Chp 06 : Add validation :
+    Video url: https://youtu.be/ZoZ8z7J_SyE?t=
+    (1) Add a toggle true/false for the "completed" checkbox
+
 
 
 
