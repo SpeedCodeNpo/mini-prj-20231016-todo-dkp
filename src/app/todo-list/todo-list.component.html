@@ -33,10 +33,10 @@
     </thead>
     <tbody>
 
-      <tr *ngFor="let currentTask of taskArray">
+      <tr *ngFor="let currentTask of taskArray; index as currentIndex">
         <td>{{currentTask.taskName}}</td>
         <td><input id="myCheckbox" type="checkbox"></td>
-        <td><button class="btn btn-danger btn-sm">Delete</button></td>
+        <td><button class="btn btn-danger btn-sm" (click)="onDelete(currentIndex)">Delete</button></td>
       </tr>
 
     </tbody>

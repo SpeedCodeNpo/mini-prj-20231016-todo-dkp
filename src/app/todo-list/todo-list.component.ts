@@ -12,8 +12,15 @@ export class TodoListComponent {
   ]; 
 
   onSubmitTask(form: NgForm){
-    console.log(form);
-    
+    this.taskArray.push({
+      taskName: form.controls['taskControl'].value,
+      isCompleted: false
+    })
+  }
+
+  onDelete(index: number){
+    this.taskArray.splice(index,1);
+
   }
 
 }

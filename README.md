@@ -44,6 +44,9 @@
 - Chp 04 : Add the data model :
     (1) in comp. ts create an array to hold the task data.
     (2) in comp. html modify table rows with *ngFor of the data array.
+- Chp 05 : Add and delete a task :
+    (1) in comp ts file grab the value from the input element and push to array.
+    (2) in comp ts remove an item from the array
 
 
 ## Included in the starter branch :
