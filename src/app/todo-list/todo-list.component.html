@@ -32,11 +32,13 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td>Brush teeth</td>
+
+      <tr *ngFor="let currentTask of taskArray">
+        <td>{{currentTask.taskName}}</td>
         <td><input id="myCheckbox" type="checkbox"></td>
         <td><button class="btn btn-danger btn-sm">Delete</button></td>
       </tr>
+
     </tbody>
   </table>
 

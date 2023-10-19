@@ -41,6 +41,10 @@
     (3) in comp. html file wireup controls to ngModel directive.
     (4) in comp. ts file create the submit method
     (5) in comp. html file add validations. https://angular.io/api/forms/Validators
+- Chp 04 : Add the data model :
+    (1) in comp. ts create an array to hold the task data.
+    (2) in comp. html modify table rows with *ngFor of the data array.
+
 
 ## Included in the starter branch :
 

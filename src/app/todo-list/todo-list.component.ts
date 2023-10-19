@@ -7,9 +7,13 @@ import {NgForm} from '@angular/forms'
   styleUrls: ['./todo-list.component.css']
 })
 export class TodoListComponent {
+  taskArray = [
+    {taskName: 'Brush my teeth', isCompleted: false}
+  ]; 
 
   onSubmitTask(form: NgForm){
-
+    console.log(form);
+    
   }
 
 }
