@@ -2,21 +2,23 @@
 <div class="container">
 <h1>Todo Application</h1><div class="container">
   <hr>
-  <form>
-    <div class="mb-3">
-      <label for="taskFieldId" class="form-label">Task</label>
+  <form (ngSubmit)="onSubmitTask(taskForm)" #taskForm="ngForm" >
+    <div class="form-group">
+      <label for="taskFieldId">Task</label>
       <input
         type="text"
         class="form-control"
         id="taskFieldId"
+        placeholder="Enter task"
+        ngModel
+        name="taskControl"
       />
-      <div id="erroMessage" class="form-text text-danger">
+      <small id="erroMessage" class="form-text text-danger">
         Required field
-      </div>
+      </small>
     </div>
-  
-   
-    <button type="submitButton" class="btn btn-primary">Submit</button>
+
+    <button id="submitButton" type="submit" class="btn btn-primary">Submit</button>
   </form>
 
   <hr>

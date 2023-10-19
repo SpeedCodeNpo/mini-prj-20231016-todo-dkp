@@ -16,7 +16,9 @@
 
 ## Skill goals :
 
-- 
+- Use bootstrap
+- Use TDF (Template Driven Forms)
+
 
 ## App display:
 
@@ -28,11 +30,17 @@
 -
 ## Screenshot after interaction :
 
-## Your task :
+## Content of each chapter (branch) :
 
-- (1) 
-- (2) 
-- (3) 
+- Chp 00 : 
+- Chp 01 : 
+- Chp 02 : 
+- Chp 03 : Wire up a TDF :
+    (1) in app.module importthe FormsModule.
+    (2) in comp. html file modify the  for submit event.
+    (3) in comp. html file wireup controls to ngModel directive.
+    (4) in comp. ts file create the submit method
+    (5) in comp. html file add validations. https://angular.io/api/forms/Validators
 
 ## Included in the starter branch :
 

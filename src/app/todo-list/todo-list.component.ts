@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {NgForm} from '@angular/forms'
 
 @Component({
   selector: 'app-todo-list',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./todo-list.component.css']
 })
 export class TodoListComponent {
+
+  onSubmitTask(form: NgForm){
+
+  }
 
 }
